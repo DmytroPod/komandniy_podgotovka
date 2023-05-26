@@ -75,7 +75,7 @@ h5 {
 .nav-link:hover {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   color: #404bbf;
 
   text-decoration: underline;
@@ -98,7 +98,7 @@ h5 {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #404bbf;
 }
@@ -159,7 +159,7 @@ button {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
+
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
@@ -215,8 +215,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.04em;
   flex-direction: row;
-  align-items: center;
-  text-align: center;
+
   background: var(--accent-background-color);
 
   color: #4d5ae5;
