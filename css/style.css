@@ -135,7 +135,6 @@ button {
 }
 /* section2 */
 .methodology {
-  display: none;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -202,9 +201,7 @@ button {
   color: var(--accent-background-color);
 }
 /* page2 Portfolio */
-.filters-title {
-  display: none;
-}
+
 .portfolio-list {
   list-style-type: none;
 }
