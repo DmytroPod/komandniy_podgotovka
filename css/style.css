@@ -123,8 +123,7 @@ button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
+
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
@@ -193,7 +192,6 @@ button {
   text-decoration: none;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
   color: var(--text-color-accent);
 }
 .footer-logo-textstudio {
@@ -216,7 +214,6 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  display: flex;
   flex-direction: row;
   align-items: center;
   text-align: center;
