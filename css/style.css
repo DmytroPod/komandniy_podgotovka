@@ -19,9 +19,7 @@ ul {
 h1 {
   line-height: 1, 07;
 }
-h2 {
-  line-height: 1, 11;
-}
+
 h3 {
   line-height: 1.2;
 }
@@ -156,6 +154,12 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
+.mtlg-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
 
 .mtlg-text {
   font-weight: 400;
@@ -165,8 +169,9 @@ button {
 }
 /* section 3 our team */
 .section-title {
-  font-weight: 500;
-  font-size: 20px;
+  font-weight: 700;
+  line-height: 1, 11;
+  font-size: 36px;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
