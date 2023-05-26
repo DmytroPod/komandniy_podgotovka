@@ -16,9 +16,7 @@ body {
 ul {
   list-style-type: none;
 }
-h1 {
-  line-height: 1, 07;
-}
+
 h2 {
   line-height: 1, 11;
 }
@@ -118,8 +116,9 @@ h5 {
 .hero {
   background-color: var(--background-color-hero-footer);
 }
-.hero-title h1 {
+.hero .hero-title {
   font-weight: 700;
+  line-height: 1, 07;
   font-size: 56px;
   text-align: center;
   letter-spacing: 0.02em;
