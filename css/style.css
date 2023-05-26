@@ -40,12 +40,13 @@ h5 {
   font-size: 18px;
   line-height: 1.17;
   text-transform: uppercase;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.03em;
   color: var(--text-color-accent);
 }
 .logo-link:hover,
 .logo-link:focus {
   text-decoration: underline;
+  letter-spacing: 0.03em;
 }
 
 .logo-textstudio {
