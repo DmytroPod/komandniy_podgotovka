@@ -64,9 +64,7 @@ h5 {
   color: #404bbf;
 }
 /* nav */
-.nav-list {
-  list-style-type: none;
-}
+
 .nav-link {
   color: #2e2f42;
   font-weight: 500;
