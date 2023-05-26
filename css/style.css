@@ -117,6 +117,10 @@ h5 {
   letter-spacing: 0.02em;
   color: #ffffff;
 }
+button {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
 .hero .button {
   font-style: normal;
   font-weight: 500;
