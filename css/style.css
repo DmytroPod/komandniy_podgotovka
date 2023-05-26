@@ -145,6 +145,10 @@ button {
 /* section2 */
 .methodology {
   display: none;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .mtlg-text {
@@ -173,6 +177,7 @@ button {
 }
 .team-position {
   color: var(--text-color-p);
+  letter-spacing: 0.02em;
 }
 .team-card {
   background: #ffffff;
@@ -185,18 +190,19 @@ button {
   background-color: var(--background-color-hero-footer);
 }
 .footer-logo-link {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   text-decoration: none;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--accent-background-color);
+
+  color: var(--text-color-accent);
 }
-.footer-logo-textWeb {
-  color: #4d5ae5;
+.footer-logo-textstudio {
+  color: var(--accent-background-color);
 }
 .footer-text {
   letter-spacing: 0.02em;
