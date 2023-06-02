@@ -140,18 +140,20 @@ img {
 
 .hero {
   background-color: var(--background-color-hero-footer);
+  padding-top: 188px;
 }
 .container-hero {
   display: flex;
   flex-direction: column;
   padding-bottom: 167px;
-  padding-bottom: 188;
+
   margin-bottom: 131px;
 }
 .hero-title {
   display: flex;
   margin: 0 auto;
   margin-bottom: 48px;
+
   max-width: 496px;
 
   font-weight: 700;
