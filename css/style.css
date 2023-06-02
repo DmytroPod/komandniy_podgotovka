@@ -46,7 +46,6 @@ img {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  outline: 1px solid red;
 }
 /* header */
 .header {
@@ -273,7 +272,7 @@ button {
   display: block;
   width: 264px;
   height: 380px;
-  background: #ffffff;
+
   background: #ffffff;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -305,32 +304,61 @@ button {
   color: var(--accent-background-color);
 }
 /* page2 Portfolio */
+.filters-title {
+  display: none;
+}
 
-.portfolio-list {
-  list-style-type: none;
+.filters-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+  margin-top: 96px;
 }
 .filters-button {
+  padding: 12px 24px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-
   background: var(--accent-background-color);
-
   color: #4d5ae5;
   cursor: pointer;
+
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
 .filters-button:hover,
 .filters-button:focus {
   color: var(--color-page);
   background: #404bbf;
 }
+.portfolio-list {
+  padding-left: auto;
+  padding-right: auto;
+  margin-bottom: 120px;
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+
+  list-style-type: none;
+}
 .portfolio-link {
   text-decoration: none;
 }
-
+.portfolio-item {
+  width: 360px;
+  height: 420px;
+  display: flex;
+  margin-bottom: 48px;
+  background: var(--color-page);
+  border: 1px solid var(--border-header-footer);
+}
 .portfolio-card-name {
+  margin-left: 16px;
+  margin-top: 32px;
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -338,6 +366,7 @@ button {
   color: var(--background-color-hero-footer);
 }
 .portfolio-card-text {
+  margin-left: 16px;
   font-size: 16px;
   letter-spacing: 0.02em;
   color: var(--text-color-p);
