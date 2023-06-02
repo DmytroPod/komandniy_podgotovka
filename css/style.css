@@ -144,6 +144,7 @@ img {
   display: flex;
   flex-direction: column;
   padding-bottom: 167px;
+  margin-bottom: 131px;
 }
 .hero-title {
   display: flex;
@@ -169,15 +170,12 @@ button {
   padding: 16px 32px;
   min-width: 169px;
   height: 56px;
-
   border: none;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  cursor: pointer;
   background: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -187,17 +185,36 @@ button {
   background-color: #404bbf;
 }
 /* section2 */
+.container-mtlg {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-bottom: 98px;
+}
 .methodology {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.mtlg-title {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.mtlg-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
+.mtlg-list {
+  display: flex;
+  gap: 24px;
+}
+.mtlg-item {
+  width: 264px;
 }
 
 .mtlg-text {
@@ -206,8 +223,24 @@ button {
   letter-spacing: 0.02em;
   color: var(--text-color-p);
 }
-/* section 3 our team */
+/* section 3   About us */
+.container-about {
+  margin-bottom: 120px;
+}
+.about-list {
+  display: flex;
+  margin-top: 72px;
+  gap: 24px;
+}
+.about-item {
+}
+/* section 4 our team */
+.section-our-team {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .section-title {
+  margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -218,24 +251,41 @@ button {
 .section-our-team {
   background-color: var(--accent-background-color);
 }
+.team-list {
+  display: flex;
+  gap: 24px;
+}
 .team-name {
+  margin-top: 32px;
+  margin-bottom: 8px;
+  text-align: center;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
 .team-position {
+  text-align: center;
   color: var(--text-color-p);
   letter-spacing: 0.02em;
 }
 .team-card {
+  display: block;
+  width: 264px;
+  height: 380px;
   background: #ffffff;
+  background: #ffffff;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
 }
 /* footer */
 .footer {
+  padding: 100px 0px;
   background-color: var(--background-color-hero-footer);
 }
 .footer-logo-link {
+  margin-bottom: 16px;
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -250,6 +300,7 @@ button {
   color: var(--accent-background-color);
 }
 .footer-text {
+  max-width: 264px;
   letter-spacing: 0.02em;
   color: var(--accent-background-color);
 }
