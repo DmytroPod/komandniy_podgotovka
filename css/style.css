@@ -217,6 +217,7 @@ button {
   gap: 24px;
 }
 .mtlg-item {
+  width: calc((100% - 72px) / 4);
   width: 264px;
 }
 
