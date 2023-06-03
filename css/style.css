@@ -191,8 +191,8 @@ button {
 /* section2 */
 
 .container-mtlg {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  margin-bottom: 120px;
+  margin-top: 120px;
 }
 .methodology {
   position: absolute;
