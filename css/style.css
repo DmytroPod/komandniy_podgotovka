@@ -190,7 +190,7 @@ button {
 
 /* section2 */
 
-.container-mtlg {
+.section-mtlg {
   padding: 120px 0;
 }
 .visually-hidden {
@@ -228,8 +228,8 @@ button {
 }
 /* section 3   About us */
 
-.container-about {
-  margin-bottom: 120px;
+.section-about {
+  margin-bottom: 120px 0;
 }
 .about-list {
   display: flex;
