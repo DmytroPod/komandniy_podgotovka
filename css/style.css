@@ -374,9 +374,12 @@ button {
 .portfolio-item:nth-child(3n) {
   margin-right: 0;
 }
-.portfolio-card-name {
-  margin-left: 16px;
+.box-info {
+  margin-bottom: 32px;
   margin-top: 32px;
+  padding-left: 16px;
+}
+.portfolio-card-name {
   margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
@@ -385,7 +388,7 @@ button {
   color: var(--background-color-hero-footer);
 }
 .portfolio-card-text {
-  margin-left: 16px;
+  order: 0;
   font-size: 16px;
   letter-spacing: 0.02em;
   color: var(--text-color-p);
