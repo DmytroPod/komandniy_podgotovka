@@ -191,7 +191,7 @@ button {
 /* section2 */
 
 .section-mtlg {
-  padding: 120px 0;
+  padding-bottom: 120px;
 }
 .visually-hidden {
   position: absolute;
@@ -229,7 +229,7 @@ button {
 /* section 3   About us */
 
 .section-about {
-  margin-bottom: 120px 0;
+  padding: 0 0 120px 0;
   margin-bottom: 120px;
 }
 .about-list {
