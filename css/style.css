@@ -42,14 +42,14 @@ img {
 .container {
   width: 100%;
   max-width: 1158px;
+  padding: 0 15px 0 15px;
 
-  padding-left: 15px;
-  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
 /* header */
 .header {
+  padding: 0 15px 0 15px;
   border-bottom: 1px solid var(--border-header-footer);
 }
 .header-cont {
@@ -141,21 +141,18 @@ img {
 .hero {
   background-color: var(--background-color-hero-footer);
   padding-top: 188px;
+  padding-bottom: 188px;
+  margin-bottom: 120px;
 }
 .container-hero {
   display: flex;
   flex-direction: column;
-  padding-bottom: 167px;
-
-  margin-bottom: 131px;
 }
 .hero-title {
   display: flex;
   margin: 0 auto;
   margin-bottom: 48px;
-
   max-width: 496px;
-
   font-weight: 700;
   line-height: 1.07;
   font-size: 56px;
