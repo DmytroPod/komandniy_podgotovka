@@ -192,9 +192,9 @@ button {
 
 .container-mtlg {
   padding-top: 120px;
-  padding-bottom: 60px;
+  padding-bottom: 120px;
 }
-.methodology {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -231,7 +231,6 @@ button {
 
 .container-about {
   padding-bottom: 120px;
-  padding-top: 60px;
 }
 .about-list {
   display: flex;
