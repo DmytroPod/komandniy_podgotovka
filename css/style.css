@@ -376,9 +376,7 @@ button {
   margin-bottom: 0;
 }
 .box-info {
-  margin-bottom: 32px;
-  margin-top: 32px;
-  padding-left: 16px;
+  padding: 32px 16px;
 }
 .portfolio-card-name {
   margin-bottom: 8px;
