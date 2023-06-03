@@ -191,7 +191,6 @@ button {
 /* section2 */
 
 .container-mtlg {
-  padding: 120px 0;
 }
 .methodology {
   position: absolute;
@@ -217,8 +216,8 @@ button {
   gap: 24px;
 }
 .mtlg-item {
-  width: calc((100% - 72px) / 4);
   width: 264px;
+  padding: 120px 0;
 }
 
 .mtlg-text {
