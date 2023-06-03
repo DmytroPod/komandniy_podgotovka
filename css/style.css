@@ -134,6 +134,7 @@ img {
 .address-link:hover {
   color: #404bbf;
 }
+
 /* hero */
 
 .hero {
@@ -223,6 +224,7 @@ button {
   color: var(--text-color-p);
 }
 /* section 3   About us */
+
 .container-about {
   padding-bottom: 120px;
 }
