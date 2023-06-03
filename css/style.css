@@ -230,6 +230,7 @@ button {
 
 .section-about {
   margin-bottom: 120px 0;
+  margin-bottom: 120px;
 }
 .about-list {
   display: flex;
