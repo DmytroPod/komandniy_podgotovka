@@ -192,7 +192,7 @@ button {
 
 .container-mtlg {
   padding-top: 120px;
-  padding-bottom: 120px;
+  margin-bottom: 120px;
 }
 .visually-hidden {
   position: absolute;
@@ -230,7 +230,7 @@ button {
 /* section 3   About us */
 
 .container-about {
-  padding-bottom: 120px;
+  margin-bottom: 120px;
 }
 .about-list {
   display: flex;
