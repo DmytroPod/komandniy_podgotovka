@@ -353,10 +353,8 @@ button {
 
 .portfolio-list {
   margin-bottom: 120px;
-
   display: flex;
   flex-wrap: wrap;
-
   list-style-type: none;
 }
 .portfolio-link {
@@ -364,13 +362,13 @@ button {
 }
 .portfolio-item {
   width: 360px;
-  height: 420px;
+
   display: flex;
   margin-right: 24px;
   margin-bottom: 48px;
   background: var(--color-page);
 }
-.portfolio-item:nth-child(3n) {
+.portfolio-item:nth-child(3n + 3) {
   margin-right: 0;
   margin-bottom: 0;
 }
