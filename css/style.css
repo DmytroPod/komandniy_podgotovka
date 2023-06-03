@@ -373,6 +373,7 @@ button {
 }
 .portfolio-item:nth-child(3n) {
   margin-right: 0;
+  margin-bottom: 0;
 }
 .box-info {
   margin-bottom: 32px;
