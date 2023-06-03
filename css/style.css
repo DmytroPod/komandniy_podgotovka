@@ -314,9 +314,14 @@ button {
   letter-spacing: 0.02em;
   color: var(--accent-background-color);
 }
+
 /* page2 Portfolio */
+
+.section-portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
 .filters-title {
-  display: none;
 }
 
 .filters-list {
@@ -324,7 +329,6 @@ button {
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
-  margin-top: 96px;
 }
 .filters-button {
   padding: 12px 24px;
@@ -344,7 +348,9 @@ button {
 .filters-button:focus {
   color: var(--color-page);
   background: #404bbf;
+  border: 1px solid transparent;
 }
+
 .portfolio-list {
   padding-left: auto;
   padding-right: auto;
