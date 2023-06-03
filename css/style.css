@@ -352,10 +352,8 @@ button {
 }
 
 .portfolio-list {
-  padding-left: auto;
-  padding-right: auto;
   margin-bottom: 120px;
-  gap: 20px;
+
   display: flex;
   flex-wrap: wrap;
 
@@ -368,9 +366,13 @@ button {
   width: 360px;
   height: 420px;
   display: flex;
+  margin-right: 24px;
   margin-bottom: 48px;
   background: var(--color-page);
   border: 1px solid var(--border-header-footer);
+}
+.portfolio-item:nth-child(3n) {
+  margin-right: 0;
 }
 .portfolio-card-name {
   margin-left: 16px;
