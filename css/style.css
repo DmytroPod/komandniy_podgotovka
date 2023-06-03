@@ -191,8 +191,7 @@ button {
 /* section2 */
 
 .container-mtlg {
-  margin-top: 120px;
-  margin-bottom: 120px;
+  padding: 120px 0;
 }
 .visually-hidden {
   position: absolute;
