@@ -141,7 +141,6 @@ img {
   background-color: var(--background-color-hero-footer);
   padding-top: 188px;
   padding-bottom: 188px;
-  margin-bottom: 120px;
 }
 .container-hero {
   display: flex;
@@ -186,9 +185,7 @@ button {
 }
 /* section2 */
 .container-mtlg {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-bottom: 98px;
+  padding-top: 120px;
 }
 .methodology {
   position: absolute;
@@ -225,7 +222,8 @@ button {
 }
 /* section 3   About us */
 .container-about {
-  margin-bottom: 120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .about-list {
   display: flex;
