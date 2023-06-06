@@ -175,8 +175,6 @@ img {
     url(/images/hero-img-min.jpg);
 }
 
-.container-hero {
-}
 .hero-title {
   display: flex;
   margin: 0 auto;
@@ -272,8 +270,6 @@ button {
   display: flex;
   gap: 24px;
 }
-.about-item {
-}
 
 /* section 4 our team */
 
@@ -355,8 +351,6 @@ button {
 .section-portfolio {
   padding-top: 96px;
   padding-bottom: 120px;
-}
-.filters-title {
 }
 
 .filters-list {
