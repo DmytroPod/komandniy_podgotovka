@@ -253,6 +253,7 @@ button {
   letter-spacing: 0.02em;
   color: var(--text-color-p);
 }
+
 /* section 3   About us */
 
 .section-about {
@@ -273,7 +274,9 @@ button {
 }
 .about-item {
 }
+
 /* section 4 our team */
+
 .section-our-team {
   padding-top: 120px;
   padding-bottom: 120px;
