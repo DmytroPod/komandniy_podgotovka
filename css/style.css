@@ -7,6 +7,7 @@
   --border-header-footer: #e7e9fc;
   --color-link-active: #404bbf;
   --icon-color: #8e8f99;
+  --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 }
 
 body {
@@ -576,13 +577,19 @@ button {
   width: 100vw;
   height: 100vh;
   background-color:  rgba(46, 47, 66, 0.4);
+  
+  transition: opacity var(--transition), visibility var(--transition);
+ 
+ 
 }
+
+.hero-button.data-modal-open .modal{
+  
+
+}
+
 .modal {
-  position: relative;
-  /* position: absolute;
-  top: 80px;
-  left: 50%;
-  transform: translate(-50%); */
+  position: absolute;
   margin-top: 80px;
   width: 408px;
   height: 584px;
@@ -590,20 +597,40 @@ button {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14),
    0px 1px 3px rgba(0, 0, 0, 0.12),
    0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 4px;
+  border-radius: 4px;
+  transform: scale(1);
+  transition: transform var(--transition);
+  
+
 } 
+.backdrop.is-hidden .modal{
+  transform: scale(0);
+
+
+
+}
+
 .btn-modal-close {
   position: absolute;
   display: flex;
   padding: 0;
   align-items: center;
   justify-content: center;
-  
   top: 24px;
   right: 24px;
   width: 24px;
   height: 24px;
   border-radius: 50%;
   background-color: #E7E9FC;
-border: 1px solid rgba(0, 0, 0, 0.1);
+ border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.modal-icon {
+  lill: var(--background-color-hero-footer)
+} 
+
+.is-hidden{
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
 }
