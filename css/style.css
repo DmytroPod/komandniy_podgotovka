@@ -544,10 +544,14 @@ button {
   overflow: hidden;
 }
 .overlay {
+  position: absolute;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   padding: 40px 32px;
   background-color: var(--text-color-accent);
   color: var(--accent-background-color);
-  position: absolute;
+
   top: 0;
   left: 0;
   width: 100%;
