@@ -416,6 +416,7 @@ button {
 }
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-logo-link {
@@ -447,12 +448,13 @@ button {
 }
 .soc-container .footer-text {
   font-weight: 500;
+  margin-bottom: 16px;
+  color: var(--color-page);
 }
 
 .footer-soclist {
   display: flex;
-  align-items: baseline;
-  margin-top: 16px;
+
   gap: 16px;
 }
 .footer-soclist-item {
