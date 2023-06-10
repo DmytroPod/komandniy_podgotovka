@@ -566,4 +566,44 @@ button {
   letter-spacing: 0.02em;
   color: var(--text-color-p);
 }
-/* overlay+++++++++++++++++++++++++++++++++++ */
+/* modal window+++++++++++++++++++++++++++++++++++ */
+
+.backdrop {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color:  rgba(46, 47, 66, 0.4);
+}
+.modal {
+  position: relative;
+  /* position: absolute;
+  top: 80px;
+  left: 50%;
+  transform: translate(-50%); */
+  margin-top: 80px;
+  width: 408px;
+  height: 584px;
+  background-color: #fcfcfc;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14),
+   0px 1px 3px rgba(0, 0, 0, 0.12),
+   0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 4px;
+} 
+.btn-modal-close {
+  position: absolute;
+  display: flex;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  
+  top: 24px;
+  right: 24px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #E7E9FC;
+border: 1px solid rgba(0, 0, 0, 0.1);
+}
