@@ -7,7 +7,7 @@
   --border-header-footer: #e7e9fc;
   --color-link-active: #404bbf;
   --icon-color: #8e8f99;
-  --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+  --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 body {
@@ -58,8 +58,7 @@ img {
 .header {
   border-bottom: 1px solid var(--border-header-footer);
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-   0px 1px 1px rgba(46, 47, 66, 0.16),
-   0px 1px 6px rgba(46, 47, 66, 0.08);
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-cont {
   display: flex;
@@ -239,7 +238,7 @@ button {
 }
 .mtlg-title {
   margin-bottom: 8px;
-  
+
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -385,6 +384,8 @@ button {
   padding: 16px 32px;
   width: 168px;
   height: 88px;
+  align-items: center;
+  justify-content: center;
   color: var(--icon-color);
   border: 1px solid var(--icon-color);
   border-radius: 4px;
@@ -394,7 +395,6 @@ button {
 .customer-link:hover,
 .customer-link:focus {
   border-color: var(--color-link-active);
-
 }
 
 .customer-link:hover .customers-icon,
@@ -407,7 +407,6 @@ button {
 }
 
 /* =============footer======================= */
-
 
 .footer {
   padding: 100px 0px;
@@ -579,16 +578,12 @@ button {
   top: 0;
   width: 100vw;
   height: 100vh;
-  background-color:  rgba(46, 47, 66, 0.4);
-  
+  background-color: rgba(46, 47, 66, 0.4);
+
   transition: opacity var(--transition), visibility var(--transition);
- 
- 
 }
 
-.hero-button.data-modal-open .modal{
-  
-
+.hero-button.data-modal-open .modal {
 }
 
 .modal {
@@ -597,20 +592,14 @@ button {
   width: 408px;
   height: 584px;
   background-color: #fcfcfc;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14),
-   0px 1px 3px rgba(0, 0, 0, 0.12),
-   0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transform: scale(1);
   transition: transform var(--transition);
-  
-
-} 
-.backdrop.is-hidden .modal{
+}
+.backdrop.is-hidden .modal {
   transform: scale(0);
-
-
-
 }
 
 .btn-modal-close {
@@ -624,15 +613,15 @@ button {
   width: 24px;
   height: 24px;
   border-radius: 50%;
-  background-color: #E7E9FC;
- border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #e7e9fc;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .modal-icon {
-  lill: var(--background-color-hero-footer)
-} 
+  lill: var(--background-color-hero-footer);
+}
 
-.is-hidden{
+.is-hidden {
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
