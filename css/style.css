@@ -493,6 +493,7 @@ button {
 .subscribe-text {
   font-weight: 500;
   margin-bottom: 16px;
+  letter-spacing: 0.02em;
   color: var(--color-page);
 }
 .form-subscribe {
@@ -510,12 +511,13 @@ button {
   height: 40px;
   padding-left: 16px;
   background-color: inherit;
-
   border: 1px solid #ffffff;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   font-family: "Roboto";
   font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   font-weight: 400;
   font-size: 12px;
   line-height: 24px;
@@ -524,12 +526,13 @@ button {
 .subscribe-input::placeholder {
   font-family: "Roboto";
   font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   font-weight: 400;
   font-size: 12px;
-  line-height: 24px;
   display: flex;
   align-items: center;
-  letter-spacing: 0.04em;
+
   color: #ffffff;
 }
 
@@ -537,9 +540,10 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   font-weight: 500;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   background-color: var(--text-color-accent);
   border: none;
@@ -548,6 +552,7 @@ button {
 }
 .subscribe-icon {
   fill: currentColor;
+  margin-left: 16px;
 }
 
 /* page2 Portfolio */
