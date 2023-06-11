@@ -456,7 +456,6 @@ button {
 
 .footer-soclist {
   display: flex;
-
   gap: 16px;
 }
 .footer-soclist-item {
