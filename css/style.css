@@ -416,6 +416,7 @@ button {
 }
 .footer-container {
   display: flex;
+  flex-wrap: wrap;
   align-items: baseline;
 }
 
@@ -445,6 +446,7 @@ button {
 }
 .soc-container {
   max-width: 208px;
+  margin-right: 80px;
 }
 .soc-container .footer-text {
   font-weight: 500;
@@ -485,6 +487,69 @@ button {
 .footer-soclink-icon {
   fill: var(--accent-background-color);
 }
+.subscribe-cnt {
+  width: 453px;
+}
+.subscribe-text {
+  font-weight: 500;
+  margin-bottom: 16px;
+  color: var(--color-page);
+}
+.form-subscribe {
+  display: flex;
+
+  gap: 24px;
+}
+.subscribe-label {
+  width: 264px;
+  height: 40px;
+}
+
+.subscribe-input {
+  width: 264px;
+  height: 40px;
+  padding-left: 16px;
+  background-color: inherit;
+
+  border: 1px solid #ffffff;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.subscribe-input::placeholder {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
+.subscribe-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  font-weight: 500;
+  width: 165px;
+  height: 40px;
+  background-color: var(--text-color-accent);
+  border: none;
+  border-radius: 4px;
+  color: var(--color-page);
+}
+.subscribe-icon {
+  fill: currentColor;
+}
+
 /* page2 Portfolio */
 
 .section-portfolio {
