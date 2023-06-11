@@ -669,6 +669,7 @@ button {
 }
 
 .modal {
+  padding: 72px 24px 24px 24px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -714,6 +715,17 @@ button {
 .modal-icon {
   fill: var(--background-color-hero-footer);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--background-color-hero-footer);
+  margin-bottom: 16px;
 }
 
 .is-hidden {
