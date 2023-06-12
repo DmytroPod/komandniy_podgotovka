@@ -823,9 +823,7 @@ button {
 .checkbox-cnt {
   margin-bottom: 24px;
 }
-.visually-hidden {
-  overflow: hidden;
-}
+
 .checkbox-label {
   font-size: 12px;
   line-height: 1.17;
@@ -854,4 +852,16 @@ button {
 }
 .checkbox-label > a {
   color: var(--text-color-accent);
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
