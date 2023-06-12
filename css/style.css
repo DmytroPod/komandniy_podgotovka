@@ -777,7 +777,7 @@ button {
 
 .modal-input-svg {
   position: absolute;
-  fill: var(--background-color-hero-footer);
+  /* fill: var(--background-color-hero-footer); */
   top: 50%;
   left: 16px;
   transform: translateY(-50%);
