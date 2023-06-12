@@ -739,6 +739,7 @@ button {
 .modal-form {
   display: flex;
   flex-direction: column;
+  margin-bottom: 8px;
 }
 
 .modal-label {
