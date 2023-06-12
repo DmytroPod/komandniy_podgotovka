@@ -824,10 +824,34 @@ button {
   margin-bottom: 24px;
 }
 .visually-hidden {
+  overflow: hidden;
 }
 .checkbox-label {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--icon-color);
+}
+.checkbox-span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.checkbox-span:checked {
+  background-color: var(--color-link-active);
+}
+.checkbox-input:checked .checkbox-span {
+  border: none;
+  fill: var(--accent-background-color);
+}
+.checkbox-label > a {
+  color: var(--text-color-accent);
 }
