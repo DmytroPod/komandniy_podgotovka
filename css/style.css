@@ -789,7 +789,7 @@ button {
   border-color: var(--text-color-accent);
 }
 
-.comment-textarea-cnt {
+.textarea-cnt {
   margin-bottom: 16px;
 }
 .modal-textarea {
@@ -798,7 +798,8 @@ button {
   width: 360px;
   height: 120px;
   color: rgba(46, 47, 66, 0.4);
-  border: 1px solid rgba(46, 47, 66, 0.2);
+
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   background-color: transparent;
   outline: transparent;
@@ -862,7 +863,7 @@ button {
 }
 .modal-btn-send {
   display: block;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   padding: 16px 32px;
   border: none;
