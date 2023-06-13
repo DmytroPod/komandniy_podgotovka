@@ -729,11 +729,11 @@ button {
   margin-bottom: 16px;
 }
 
-.is-hidden {
+/* .is-hidden {
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
-}
+} */
 
 .modal-form {
   display: flex;
@@ -771,7 +771,6 @@ button {
   background-color: transparent;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  border-color: #4d5ae5;
 }
 
 .modal-input-svg {
@@ -794,47 +793,49 @@ button {
   margin-bottom: 16px;
 }
 .textarea {
-  width: 100%;
+  display: block;
+  resize: none;
+  width: 360px;
   height: 120px;
-  color: var(--background-color-hero-footer);
+  color: rgba(46, 47, 66, 0.4);
+  border: 1px solid rgba(46, 47, 66, 0.2);
+  border-radius: 4px;
+  background-color: transparent;
+  outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: rgba(46, 47, 66, 0.4);
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 4px;
-  background-color: transparent;
   padding: 8px 16px;
-  outline: transparent;
-  resize: none;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.textarea::placeholder {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--icon-color);
 }
 .textarea:focus {
-  border-color: #4d5ae5;
-}
-.modal-label > textarea:hover::placeholder,
-.modal-label > textarea:focus::placeholder {
-  color: var(--text-color-accent);
-}
-.modal-label > textarea:hover,
-.modal-label > textarea:focus {
   border-color: var(--text-color-accent);
 }
+
 .checkbox-cnt {
   margin-bottom: 24px;
 }
 
 .checkbox-label {
+  display: block;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--icon-color);
+  cursor: pointer;
 }
 .checkbox-span {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -843,25 +844,19 @@ button {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.checkbox-span:checked {
+
+.checkbox-input:checked + .checkbox-label > .checkbox-span {
   background-color: var(--color-link-active);
-}
-.checkbox-input:checked .checkbox-span {
   border: none;
-  fill: var(--accent-background-color);
+  fill: var(--color-page);
 }
-.checkbox-label > a {
+.checkbox-input:focus-within .checkbox-span {
+  background-color: var(--color-link-active);
+  border: none;
+  fill: var(--color-page);
+}
+
+.checkbox-link {
+  text-decoration: underline;
   color: var(--text-color-accent);
-}
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }
