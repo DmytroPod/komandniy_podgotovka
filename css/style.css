@@ -227,6 +227,15 @@ img {
     ),
     url(../images/hero-img-min.jpg);
 }
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Dark-bg-mobile-min.jpg);
+  }
+}
 
 .hero-title {
   display: flex;
@@ -308,8 +317,10 @@ button {
   font-weight: 500;
 }
 /*= section 3   About us======================================================= */
-.section-about {
-  display: none;
+@media screen and (max-width: 1157px) {
+  .section-about {
+    display: none;
+  }
 }
 /* =======section 4 our team ===============================*/
 
@@ -457,6 +468,7 @@ button {
   line-height: 1.17;
   text-decoration: none;
   letter-spacing: 0.03em;
+  text-align: center;
   text-transform: uppercase;
   color: var(--text-color-accent);
 }
@@ -524,6 +536,7 @@ button {
 }
 
 .subscribe-text {
+  text-align: center;
   font-weight: 500;
   margin-bottom: 16px;
   letter-spacing: 0.02em;
@@ -795,7 +808,7 @@ button {
 
 .input-cnt {
   position: relative;
-  width: 360px;
+
   height: 40px;
 
   margin-top: 4px;
@@ -834,7 +847,7 @@ button {
 .modal-textarea {
   display: block;
   resize: none;
-  width: 360px;
+  width: 100%;
   height: 120px;
   color: rgba(46, 47, 66, 0.4);
 
