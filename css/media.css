@@ -113,6 +113,9 @@
     flex-direction: unset;
     gap: 40px;
   }
+  .address-link {
+    font-size: 16px;
+  }
   /* hero */
   .hero {
     background-color: var(--background-color-hero-footer);
